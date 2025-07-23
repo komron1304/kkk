@@ -1,0 +1,362 @@
+.card_man{
+    display: flex; 
+    margin: 10px 100px;
+ }
+ .card{
+     margin: 20px 50px;
+ }
+ .card-body{
+    margin: 0px 90px;
+ }
+ .card-img-to{
+    margin: 0px 50px;
+ }
+
+
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  body {
+    background: #fff;
+    color: #333;
+    line-height: 1.6;
+  }
+  .top-bar {
+    background: #1c1c1c;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 30px;
+    font-size: 14px;
+    flex-wrap: wrap;
+  }
+  .top-bar a {
+    color: #ccc;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .top-bar a:hover {
+    color: #fff;
+  }
+  .top-left a {
+    color: #00aaff;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #f8f8f8;
+    flex-wrap: wrap;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .logo span {
+    color: #00aaff;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+  }
+  .icons a {
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px;
+    background: #fde6dc;
+  }
+  .hero-text {
+    flex: 1;
+    min-width: 280px;
+  }
+  .hero-text h4 {
+    color: #666;
+    font-size: 1.2rem;
+  }
+  .hero-text h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+  }
+  .hero-buttons button {
+    padding: 12px 24px;
+    margin: 10px 10px 0 0;
+    border: none;
+    border-radius: 4px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  .hero-buttons .outline {
+    background: transparent;
+    color: #000;
+    border: 2px solid #000;
+  }
+  .hero-image img {
+    max-width: 380px;
+    width: 100%;
+    height: auto;
+  }
+  .categories {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 20px;
+    background: #fafafa;
+    flex-wrap: wrap;
+  }
+  .category {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  .new-arrivals {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .new-arrivals h2 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+  }
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+  }
+  .product {
+    width: 160px;
+    text-align: center;
+  }
+  .product img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .promotions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background: #f3f3f3;
+  }
+  .promo {
+    background: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 40px 20px;
+    flex: 1 1 300px;
+    max-width: 400px;
+    text-align: center;
+  }
+
+
+  .promotions-with-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+    justify-content: center;
+    background: #f9f9f9;
+  }
+  
+  .promo-img-block {
+    position: relative;
+    flex: 1 1 300px;
+    max-width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .promo-img-block img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .promo-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #000;
+    background-color: rgba(255,255,255,0.9);
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 80%;
+  }
+  
+  .promo-text h4 {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .promo-text h2 {
+    font-size: 18px;
+    margin: 8px 0;
+  }
+  
+  .promo-text button {
+    padding: 8px 16px;
+    background: #000;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .promo-text input {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .timer {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #444;
+  }
+  
+  .tops{
+    width: 190px;
+    border-radius: 30px;
+    justify-content: center;
+    margin: 30px 30px;
+  }
+  .li_class{
+    display: flex;
+    
+  }
+  .h2_class{
+    display: inline-block;
+    margin: 20px 600px;
+  }
+  .div_class{
+    display: flex;
+    margin: 20px 100px;
+    height: 30px;
+  }
+  .class_button{
+    margin: 600px 650px;
+  }
+
+
+
+
+  
+  
+  section {
+    margin-bottom: 40px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .product {
+    flex: 1 1 30%;
+  }
+  .product img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .price {
+    color: red;
+  }
+  .button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: teal;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .app-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+  }
+  .app-content img {
+    width: 120px;
+  }
+  .stores img {
+    width: 120px;
+    margin-right: 10px;
+  }
+  
+  .benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .benefit {
+    flex: 1 1 45%;
+    background: #e9f5f4;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+  }
+  
+  .instagram .insta-images {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  .insta-images img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .blog .posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .post {
+    flex: 1 1 45%;
+  }
+  .post img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+
+  .li{
+    display: flex;
+    margin: 20px 50px;
+  }
+  .div_div{
+    display: flex;
+  }
+  
