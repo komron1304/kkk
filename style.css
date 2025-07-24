@@ -1,12 +1,9 @@
 .card_man{
     display: flex; 
-    margin: 10px 100px;
+    margin: 10px 0px;
  }
  .card{
-     margin: 20px 50px;
- }
- .card-body{
-    margin: 0px 90px;
+    margin: 20px 50px; 
  }
  .card-img-to{
     margin: 0px 50px;
@@ -138,9 +135,9 @@
   .products {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
     margin-top: 30px;
+   
+    display: inline-block;
   }
   .product {
     width: 160px;
@@ -258,9 +255,11 @@
     height: 30px;
   }
   .class_button{
-    margin: 600px 650px;
+    margin: 350px 500px;
   }
-
+.p{
+  margin: 50px 2px;
+}
 
 
 
@@ -350,8 +349,6 @@
     border-radius: 8px;
     margin-bottom: 10px;
   }
-
-
   .li{
     display: flex;
     margin: 20px 50px;
