@@ -260,11 +260,6 @@
 .p{
   margin: 50px 2px;
 }
-
-
-
-  
-  
   section {
     margin-bottom: 40px;
     background: #fff;
@@ -351,9 +346,31 @@
   }
   .li{
     display: flex;
-    margin: 20px 50px;
+    margin: 20px 30px;
   }
   .div_div{
     display: flex;
+    margin: 10px 30px;
+    list-style-type: none;
   }
-  
+  .img_left{
+    display: flex;
+  }
+  .marjin{
+    margin: 5px 100px;
+  }
+  .section_left{
+    background-color: black;
+    list-style-type: none;
+    display: flex;
+    margin: 10px 20px;
+  }
+  .a{
+    color: white;
+  }
+  .font{
+    display: flex;
+  }
+  .aa{
+    margin: 20px 30px;
+  }
