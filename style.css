@@ -74,6 +74,7 @@
     font-size: 18px;
   }
   .hero {
+    background-image: url(./image\ \(7\).png);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -243,6 +244,7 @@
   }
   .li_class{
     display: flex;
+    list-style-type: none;
     
   }
   .h2_class{
@@ -253,9 +255,6 @@
     display: flex;
     margin: 20px 100px;
     height: 30px;
-  }
-  .class_button{
-    margin: 350px 500px;
   }
 .p{
   margin: 50px 2px;
@@ -374,3 +373,10 @@
   .aa{
     margin: 20px 30px;
   }
+  .li_margin{
+    margin: 0 260px;
+  }
+  .class_button{
+    margin: 550px 580px;
+  }
+  
